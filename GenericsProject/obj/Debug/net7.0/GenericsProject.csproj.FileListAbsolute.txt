@@ -1,0 +1,15 @@
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.csproj.AssemblyReference.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.GeneratedMSBuildEditorConfig.editorconfig
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.AssemblyInfoInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.AssemblyInfo.cs
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.csproj.CoreCompileInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/bin/Debug/net7.0/GenericsProject
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/bin/Debug/net7.0/GenericsProject.deps.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/bin/Debug/net7.0/GenericsProject.runtimeconfig.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/bin/Debug/net7.0/GenericsProject.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/bin/Debug/net7.0/GenericsProject.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/refint/GenericsProject.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/GenericsProject.genruntimeconfig.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/GenericsProject/obj/Debug/net7.0/ref/GenericsProject.dll
