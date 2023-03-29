@@ -1,0 +1,15 @@
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/bin/Debug/net7.0/WiredBrainCoffie.StorageApp
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/bin/Debug/net7.0/WiredBrainCoffie.StorageApp.deps.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/bin/Debug/net7.0/WiredBrainCoffie.StorageApp.runtimeconfig.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/bin/Debug/net7.0/WiredBrainCoffie.StorageApp.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/bin/Debug/net7.0/WiredBrainCoffie.StorageApp.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.csproj.AssemblyReference.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.GeneratedMSBuildEditorConfig.editorconfig
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.AssemblyInfoInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.AssemblyInfo.cs
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.csproj.CoreCompileInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/refint/WiredBrainCoffie.StorageApp.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/WiredBrainCoffie.StorageApp.genruntimeconfig.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/obj/Debug/net7.0/ref/WiredBrainCoffie.StorageApp.dll
