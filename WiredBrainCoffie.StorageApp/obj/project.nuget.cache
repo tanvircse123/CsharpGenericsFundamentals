@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "MTwkCSgA193nicbX/110G+42eucBVdqLHraXlU1ucysWDjVsBI3FM25fOiUTTc6VCs+eFLdcwmn88oExLYEBnA==",
+  "dgSpecHash": "6FhqatymKZ9PSApaYwatb7XWlvdKtdSOmIDSgYCSBpP6y0wDdYfjdyYTAPfu/KPvWWiQdtOzR94XUzsj64tbIw==",
   "success": true,
   "projectFilePath": "/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WiredBrainCoffie.StorageApp/WiredBrainCoffie.StorageApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/tanvir/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.4/microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.4/microsoft.entityframeworkcore.inmemory.7.0.4.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/tanvir/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

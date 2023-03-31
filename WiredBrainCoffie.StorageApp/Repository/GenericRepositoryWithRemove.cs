@@ -6,7 +6,7 @@ using WiredBrainCoffie.StorageApp.Entities.Base;
 
 namespace WiredBrainCoffie.StorageApp.Repository
 {
-    public class GenericRepositoryWithRemove<T>:GenericRepository<T> where T:EntityBase,IEntityBase
+    public class GenericRepositoryWithRemove<T>:ListsRepository<T> where T:EntityBase,IEntityBase
     {
         public void Remove(T item){
             _items.Remove(item);
