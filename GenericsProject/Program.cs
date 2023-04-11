@@ -1,7 +1,10 @@
-﻿using GenericsProject.StackApp;
-
-//StackDouble();
+﻿using GenericsProject.GenericStack;
+using GenericsProject.StackApp;
+using GenericsProject.CollectionGenericDemo;
+StackDouble();
 StackString();
+GenericsclassDemo();
+DefaultClass.DefaultGenericsStack();
 
 void StackString()
 {
@@ -43,4 +46,30 @@ static void StackDouble()
     }
 
     Console.WriteLine("Total Value " + sum);
+}
+
+
+static void GenericsclassDemo(){
+    var stackstring = new GStack<string>();
+    var stackInt = new GStack<int>();
+
+    stackstring.push("Tanvir");
+    stackstring.push("ornob");
+    stackstring.push("ornik");
+    stackstring.push("aaaron");
+    while(stackstring.Count()>0){
+        var item = stackstring.pop();
+        Console.WriteLine(item);
+    }
+
+    stackInt.push(1);
+    stackInt.push(2);
+    stackInt.push(3);
+    stackInt.push(4);
+    while(stackInt.Count()>0){
+        var item = stackInt.pop();
+        Console.WriteLine(item);
+    }
+
+
 }
