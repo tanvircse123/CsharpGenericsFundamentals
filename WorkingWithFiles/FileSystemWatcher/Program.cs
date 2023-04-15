@@ -1,4 +1,12 @@
-﻿using FileSystemWatchers;
+﻿using System.Collections.Concurrent;
+using FileSystemWatchers;
+
+
+ConcurrentDictionary<string,string> FilesToProcess = new ConcurrentDictionary<string, string>();
+// dictionary does not have duplicate 
+// value so we store the process in the dictionary 
+// then loop through it and Process it
+// and then remove it from the dictionary
 
 Console.WriteLine("parsing Command Line Options");
 var directorytowatch = args[0];
@@ -7,6 +15,7 @@ if(!Directory.Exists(directorytowatch)){
     return;
 }
 using var inputFileWatcher = new FileSystemWatcher(directorytowatch);
+using var timer = new Timer(processFiles,null,0,1000);
 inputFileWatcher.IncludeSubdirectories = false;
 inputFileWatcher.InternalBufferSize = 32768;
 inputFileWatcher.Filter = "*.*";
@@ -25,7 +34,7 @@ Console.ReadLine();
 void FileCreated(object sender, FileSystemEventArgs e)
 {
     Console.WriteLine("File Created");
-    ProcessSingleFile(e.FullPath);
+    FilesToProcess.TryAdd(e.FullPath,e.FullPath);
 }
 
 
@@ -33,7 +42,7 @@ void FileCreated(object sender, FileSystemEventArgs e)
 void FileChanged(object sender, FileSystemEventArgs e)
 {
     Console.WriteLine("File Changed");
-    ProcessSingleFile(e.FullPath);
+    FilesToProcess.TryAdd(e.FullPath,e.FullPath);
 }
 
 
@@ -41,7 +50,7 @@ void FileChanged(object sender, FileSystemEventArgs e)
 void FileRenamed(object sender, RenamedEventArgs e)
 {
     Console.WriteLine($"File Renamed From {e.OldName} to {e.Name} ");
-    ProcessSingleFile(e.FullPath);
+    FilesToProcess.TryAdd(e.FullPath,e.FullPath);
 
 }
 
@@ -56,6 +65,25 @@ void Errors(object sender, ErrorEventArgs e)
 {
     Console.WriteLine("Error Occured");
 }
+
+
+void processFiles( object stateinfo){
+
+    // now execute this method in a interval 
+    // we will use timer for this
+
+    foreach(var filename in FilesToProcess.Keys){
+        if(FilesToProcess.TryRemove(filename,out _))
+        {
+            var fileProcessor = new FileProcessor(filename);
+            fileProcessor.Process();
+        }
+    }
+}
+
+
+
+
 
 static void ProcessSingleFile(string filepath){
 	var fileProcessor = new FileProcessor(filepath);
