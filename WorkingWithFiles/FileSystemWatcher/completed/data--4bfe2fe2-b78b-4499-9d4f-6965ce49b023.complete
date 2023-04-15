@@ -1,0 +1,16 @@
+dummy data
+inputFileWatcher.Created += FileCreated;
+inputFileWatcher.Deleted += FileDeleted;
+inputFileWatcher.Changed += FileChanged;
+inputFileWatcher.Error += Errors;
+inputFileWatcher.Renamed += FileRenamed
+inputFileWatcher.Created += FileCreated;
+inputFileWatcher.Deleted += FileDeleted;
+inputFileWatcher.Changed += FileChanged;
+inputFileWatcher.Error += Errors;
+inputFileWatcher.Renamed += FileRenamed;
+inputFileWatcher.Created += FileCreated;
+inputFileWatcher.Deleted += FileDeleted;
+inputFileWatcher.Changed += FileChanged;
+inputFileWatcher.Error += Errors;
+inputFileWatcher.Renamed += FileRenamed;
