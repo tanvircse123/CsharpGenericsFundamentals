@@ -1,0 +1,15 @@
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/FileSystemWatcher
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/FileSystemWatcher.deps.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/FileSystemWatcher.runtimeconfig.json
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/FileSystemWatcher.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/FileSystemWatcher.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.csproj.AssemblyReference.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.GeneratedMSBuildEditorConfig.editorconfig
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.AssemblyInfoInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.AssemblyInfo.cs
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.csproj.CoreCompileInputs.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/refint/FileSystemWatcher.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.pdb
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.genruntimeconfig.cache
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/ref/FileSystemWatcher.dll
