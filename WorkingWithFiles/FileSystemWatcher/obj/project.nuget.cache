@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q6fHxFAn3mMADegtWWVkM4NS3UD4hZ1GqzSSXaZ9X+eQv6AWAaIF51axQ//rhwB5IwPFnrUMlqSqroxqTOQJxA==",
+  "dgSpecHash": "NOUeX3k4lx46CQvCYVoqzQtziQJqbHiKMAY88XSwt0Or6uoVa8WTnnJeUuty4TWrlx2a81L3eAM9xuomdFO5ig==",
   "success": true,
   "projectFilePath": "/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/FileSystemWatcher.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/tanvir/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

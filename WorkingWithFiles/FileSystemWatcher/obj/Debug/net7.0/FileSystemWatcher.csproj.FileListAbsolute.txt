@@ -13,3 +13,5 @@
 /media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.pdb
 /media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.genruntimeconfig.cache
 /media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/ref/FileSystemWatcher.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/bin/Debug/net7.0/CsvHelper.dll
+/media/tanvir/New Volume/Code/CsharpGenericsFundamentals/WorkingWithFiles/FileSystemWatcher/obj/Debug/net7.0/FileSystemWatcher.csproj.CopyComplete

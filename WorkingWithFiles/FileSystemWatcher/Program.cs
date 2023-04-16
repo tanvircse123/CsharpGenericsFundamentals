@@ -58,6 +58,7 @@ void FileRenamed(object sender, RenamedEventArgs e)
 void FileDeleted(object sender, FileSystemEventArgs e)
 {
     Console.WriteLine("File Deleted");
+    //FilesToProcess.TryAdd(e.FullPath,e.FullPath);
 }
 
 

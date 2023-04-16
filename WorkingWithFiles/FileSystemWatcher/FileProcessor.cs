@@ -41,9 +41,33 @@ namespace FileSystemWatchers
             
             
             // completed work
-            var afterprocessFileName = InprogressWork(inprogressFilePath);
-            var completedFilePath = CreateFilePath(completedDirectoryPath,afterprocessFileName);
-            File.Move(inprogressFilePath,completedFilePath);
+            var extension = Path.GetExtension(inprogressFilePath);
+            var completedFileName = $"{Path.GetFileNameWithoutExtension(inprogressFilePath)}--{Guid.NewGuid()}{extension}";
+            var completedFilePath = CreateFilePath(completedDirectoryPath,completedFileName);
+            //completedFileName = Path.ChangeExtension(completedFileName,".complete");
+            
+            switch (extension){
+                case ".txt":
+                    var textProcessor = new TextFileProcessor(inprogressFilePath,completedFilePath);
+                    textProcessor.Process2Line();
+                break;
+
+                case ".data":
+                    var binaryProcessor = new BinaryFileProcessor(inprogressFilePath,completedFilePath);
+                    binaryProcessor.Process1();
+                    break;
+                case ".csv":
+                    var csvProcessor = new CsvFileProcessor(inprogressFilePath,completedFilePath);
+                    csvProcessor.Process1();  
+                    break;
+
+                default:
+                Console.WriteLine("Extension is not supported");
+                break;
+            }
+            
+            
+            //File.Move(inprogressFilePath,completedFilePath);
 
             // delete in progress directory
             Directory.Delete(processingDirectoryPath,true);
@@ -65,25 +89,7 @@ namespace FileSystemWatchers
             return filePath;
         }
 
-        public static string InprogressWork(string inprogressFilePath){
-            var extension = Path.GetExtension(inprogressFilePath);
-            switch (extension){
-                case ".txt":
-                ProcessTextFile(inprogressFilePath);
-                break;
-
-                default:
-                Console.WriteLine("Extension is not supported");
-                break;
-            }
-            var completedFileName = $"{Path.GetFileNameWithoutExtension(inprogressFilePath)}--{Guid.NewGuid()}{extension}";
-            completedFileName = Path.ChangeExtension(completedFileName,".complete");
-            return completedFileName;
-
-                
-                
-
-        }
+        
 
         private static void ProcessTextFile(string inprogressFilePath)
         {
